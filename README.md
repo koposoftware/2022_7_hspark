@@ -8,10 +8,6 @@
 기부와 착한 챌린지를 통한 ESG 경영 플랫폼
 
 # 2. 프로젝트 제안서
-
-## 시스템 아키텍처
-![image](https://user-images.githubusercontent.com/85282833/194972582-57744ffe-1ce2-48a8-adb4-879e849a2ddb.png)
-
  
 [발표자료<img src="ppt.jpg"/>](/project.pptx)<br>
 <br> <br> 
@@ -19,7 +15,8 @@
 
 # 3. 프로젝트 결과
 프로젝트 결과를 추가하세요. 발표자료. 시연동영상을 추가하세요.
-   <img src="architecture.png"/><br>
+## 시스템 아키텍처
+![image](https://user-images.githubusercontent.com/85282833/194972582-57744ffe-1ce2-48a8-adb4-879e849a2ddb.png)
    
    <img src="erd.JPG"/><br>
 ## 발표 ppt 

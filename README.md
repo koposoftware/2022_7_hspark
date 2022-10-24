@@ -75,7 +75,7 @@
 [발표자료<img src="title.PNG"/>](/ESGHANA_PPT_최종본.pptx)<br>
 
 # 4. 시연 동영상 
-[<img src="영상메인.jpg"/>](https://youtu.be/Gvm2X4VINC8)
+[<img src="프로젝트 시작.png"/>](https://youtu.be/Gvm2X4VINC8)
 
 
 <br><br><br>

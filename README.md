@@ -65,7 +65,7 @@
 
 
 ## 2-2. ERD
-<img src="erd.png"/><br><br>
+<img src="erd1.png"/><br><br>
 
 
 ## 2-3. 적용기술

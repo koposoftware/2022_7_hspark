@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="member.dao.memberDAO">
+	<resultMap type="kr.ac.kopo.member.vo.MemberVO" id="MemberMap">
+      <result column="id" property="id"/>
+      <result column="password" property="password"/>
+      <result column="name" property="name"/>
+      <result column="tel" property="tel"/>
+      <result column="birth" property="birth"/>
+      <result column="email" property="email"/>
+      <result column="address" property="address"/>
+      <result column="type" property="type"/>
+      <result column="reg_Date" property="regDate"/>
+      <result column="company_Code" property="companyCode"/>
+      <result column="point" property="point"/>
+      <result column="profile" property="profile"/>
+      <result column="department" property="department"/>
+   	</resultMap>
+   
+	<resultMap type="kr.ac.kopo.company.vo.CompanyVO" id="CompanyMap">
+      <result column="company_Code" property="companyCode"/>
+      <result column="company_Name" property="companyName"/>
+      <result column="company_Number" property="companyNumber"/>
+      <result column="reg_Date" property="regDate"/>
+      <result column="company_Mail" property="companyMail"/>
+   </resultMap>
+   
+	<select id="login" parameterType="memberVO" resultMap="MemberMap">
+		select * from member 
+		where id=#{id} and password=#{password}
+	</select>
+	
+	<insert id="signupCompany" parameterType="memberVO">
+		insert into member(id, password, name, tel, email, type, company_Code, profile) 
+		values (#{id}, #{password}, #{name}, #{tel}, #{email}, 'C', #{companyCode}, #{profile})
+	</insert>
+	
+	<update id="updatePoint" parameterType="memberVO">
+		UPDATE member SET point = point + #{point} where id = #{id}
+	</update>
+  
+  	<select id="selectDepartmentCount" parameterType="String" resultType="map">
+  		select aa.DEPARTMENT, mct, cct, (cct/mct) aa from 
+		(select DEPARTMENT, count(DEPARTMENT) as mct from member where member.COMPANY_CODE = #{companyCode} group by DEPARTMENT ) aa,
+		(select m.DEPARTMENT, count(*) as cct from member m, CHALLENGE_HISTORY c
+		where m.id = c.id 
+		group by m.DEPARTMENT) bb 
+		where aa.department = bb.department
+		order by aa desc
+  	</select>
+  	
+  	<select id="selectCompany" parameterType="String" resultMap="CompanyMap">
+  		select COMPANY_CODE, COMPANY_NAME, COMPANY_NUMBER, to_char(REG_DATE,'yyyy/mm/dd') REG_DATE, COMPANY_MAIL from company where COMPANY_CODE = #{companyCode}
+  	</select>
+  	
+  	<select id="mcount" resultType="int">
+  	select count(*) from member where company_code='cp01'
+  	
+  	</select>
+</mapper>

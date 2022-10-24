@@ -2,7 +2,7 @@
 
 [프로젝트 홈페이지 - https://ssunggit.github.io/final_project_ESGHana/](https://ssunggit.github.io/final_project_ESGHana/)
 
-<img src="title.PNG"/><br><br><br><br>
+<img src="기능0.PNG"/><br><br><br><br>
 
 # 1. 프로젝트 개요
 
@@ -15,13 +15,13 @@
 #### 서비스 목적
 기업의 올바른 ESG경영 도입을 위한 ESG 경영 플랫폼으로 기업고객 유치와 'ESG 선두주자'로 나아갈 수 있습니다.
 
-## 1-3. 프로젝트 개발환경
+## 1-3. 프로젝트 개발환경<br>
 ### • OS : Windows10<br>
 ### • Server : Apache2, Tomcat 9<br>
 ### • Framework : Spring, MyBatis
 <br><br>
 
-## 1-4. Language / Tool / DataBase / VCS
+## 1-4. Language / Tool / DataBase / VCS <br>
 ### • Language : Java, JavaScript, jQuery, HTML, CSS <br>
 ### • Tool : Eclipse, SQLDEV<br>
 ### • DataBase : Oracle 18c<br>
@@ -62,8 +62,6 @@
 ● 기업 내 회원의 챌린지 순위 제공
 
 
-
-
 ## 2-2. ERD
 <img src="erd1.PNG"/><br><br>
 
@@ -79,7 +77,7 @@
 
   
 # 3. 발표 PPT
-[발표자료<img src="title.PNG"/>](/2260341019_정의정_PPT.pdf)<br>
+[발표자료<img src="title.PNG"/>](/ESGHANA_PPT_최종본.pptx)<br>
 
 # 4. 시연 동영상 
 [<img src="영상메인.jpg"/>](https://youtu.be/r1HVrnodi14)
@@ -93,8 +91,7 @@
 |-----|---------------------------|----|
 |이름 |박현성| <img src="박현성.png" width="100" />|
 |연락처 | 이메일 | gustjd68(@)naver.com |
-|자격증| 
-| 2021.06.25 | SQLD ( 한국데이터산업진흥원 ) |
+|자격증| 2021.06.25 | SQLD ( 한국데이터산업진흥원 ) |
 |skill set| Frontend | HTML, CSS, Javascript |
 | | Backend | Java, Oracle, Spring, Python,django |
 | | ETC | Git

@@ -1,7 +1,5 @@
 # ESGHANA_함께하는 ESG, 기부와 착한 챌린지를 통한 ESG 경영 플랫폼
 
-[프로젝트 홈페이지 - https://ssunggit.github.io/final_project_ESGHana/](https://ssunggit.github.io/final_project_ESGHana/)
-
 <img src="기능0.PNG"/><br><br><br><br>
 
 # 1. 프로젝트 개요
@@ -37,7 +35,6 @@
 
 
 <br><br>
-
 
 # 2. 프로젝트 결과
 

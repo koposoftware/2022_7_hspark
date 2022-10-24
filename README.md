@@ -85,7 +85,7 @@
 |항목|내용||
 |-----|---------------------------|----|
 |이름 |박현성| <img src="박현성.jpg" width="100" />|
-|연락처 | 이메일 | gustjd68(@)naver.com |
+|연락처| 01041215135| 이메일 | gustjd68(@)naver.com |
 |자격증| 2021.06.25 | SQLD ( 한국데이터산업진흥원 ) |
 |skill set| Frontend | HTML, CSS, Javascript |
 | | Backend | Java, Oracle, Spring, Python,django |

@@ -29,11 +29,11 @@
 
 
 ## 1-5. 시스템 아키텍처
-<img src="시스템아키텍처.png"/><br><br>
+<img src="아키텍처.PNG"/><br><br>
 
 
 ## 1-6. 프로젝트 수행기간
-<img src="간트차트.png"/><br><br>
+<img src="간트차트.PNG"/><br><br>
 
 
 <br><br>
@@ -51,11 +51,11 @@
 ● 기부목표금액 달성 시 자동 기부
 ● 기부완료시 사용자의 메일로 기부증서 지급
 <br>
-<img src="기능2.png"/><br><br>
+<img src="기능2.PNG"/><br><br>
 2. 착한 챌린지 - 환경을 생각하는 착한 챌린지
 : 사진업로드를 통한 간편한 챌린지 인증이 가능하고 챌린지 인증 시 즉시 포인트 지급
 <br>
-<img src="기능3.png"/><br><br>
+<img src="기능3.PNG"/><br><br>
 3. 기업 회원 관리
 ● 기업 회원은 기업메일 인증 후 회원가입 가능
 ● 기업관리자는 기업 내 회원에게 문자서비스 가능
@@ -65,7 +65,7 @@
 
 
 ## 2-2. ERD
-<img src="erd1.png"/><br><br>
+<img src="erd1.PNG"/><br><br>
 
 
 ## 2-3. 적용기술
@@ -79,7 +79,7 @@
 
   
 # 3. 발표 PPT
-[발표자료<img src="title.png"/>](/2260341019_정의정_PPT.pdf)<br>
+[발표자료<img src="title.PNG"/>](/2260341019_정의정_PPT.pdf)<br>
 
 # 4. 시연 동영상 
 [<img src="영상메인.jpg"/>](https://youtu.be/r1HVrnodi14)

@@ -2,12 +2,11 @@
 
 [프로젝트 홈페이지 - https://ssunggit.github.io/final_project_ESGHana/](https://ssunggit.github.io/final_project_ESGHana/)
 
-<img src="title.png"/><br><br><br><br>
+<img src="title.PNG"/><br><br><br><br>
 
 # 1. 프로젝트 개요
 
 ## 1-1. 프로젝트 선정 배경 및 목적
-<img src="배경.jpg"/><br>
 #### 서비스 개요
 1. 국내 소비자의 ESG경영에 대한 관심 증대
 2. ESG 우수기업에 대한 다양한 혜택
@@ -34,20 +33,15 @@
 
 
 ## 1-6. 프로젝트 수행기간
-<img src="간트.png"/><br><br>
+<img src="간트차트.png"/><br><br>
 
 
 <br><br>
 
-# 2. 프로젝트 제안서
-[제안서PPT<img src="제안서.jpg"/>](/2260341019_정의정_제안서.pdf)<br>
 
-<br> <br> 
+# 2. 프로젝트 결과
 
-
-# 3. 프로젝트 결과
-
-## 3-1. 핵심기능
+## 2-1. 핵심기능
 <br>
 <img src="기능1.PNG"/><br><br>
 1. 기부저금통을 통한 편리한 기부서비스
@@ -70,11 +64,11 @@
 
 
 
-## 3-2. ERD
+## 2-2. ERD
 <img src="erd.png"/><br><br>
 
 
-## 3-3. 적용기술
+## 2-3. 적용기술
 #### ○ Spring MVC 기반 웹 어플리케이션 개발
 #### ○ OCR을 활용한 이미지 텍스트 추출
 #### ○ Java MailSender를 사용한 기부증서 전송 서비스
@@ -84,23 +78,23 @@
 <br><br>
 
   
-# 4. 발표 PPT
+# 3. 발표 PPT
 [발표자료<img src="title.png"/>](/2260341019_정의정_PPT.pdf)<br>
 
-# 5. 시연 동영상 
+# 4. 시연 동영상 
 [<img src="영상메인.jpg"/>](https://youtu.be/r1HVrnodi14)
 
 
 <br><br><br>
  
-# 6. 본인 소개
+# 5. 본인 소개
 
 |항목|내용||
 |-----|---------------------------|----|
-|이름 |박현성| <img src="itisme.jpg" width="100" />|
-|연락처 | 이메일 | gustjd68(@)naver.com|
+|이름 |박현성| <img src="박현성.png" width="100" />|
+|연락처 | 이메일 | gustjd68(@)naver.com |
 |자격증| 
-| | 2021.06.25 | SQLD ( 한국데이터산업진흥원 ) |
+| 2021.06.25 | SQLD ( 한국데이터산업진흥원 ) |
 |skill set| Frontend | HTML, CSS, Javascript |
 | | Backend | Java, Oracle, Spring, Python,django |
 | | ETC | Git
